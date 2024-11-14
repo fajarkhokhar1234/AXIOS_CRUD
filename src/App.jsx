@@ -1,11 +1,14 @@
-import Todo from "./Todo/Todo.jsx"
+import { Posts } from "./Posts";
+
 function App() {
- 
+
   return (
     <>
-    <Todo/>
+      <section className="main-section">
+        <Posts />
+      </section>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
